@@ -23,4 +23,11 @@ public class HelloController {
         return  "hi2 0630 ";
     }
 
+    @ResponseBody
+    @GetMapping("/hi3")
+    public String  hi3(){
+
+        return  "hi3 0630 ";
+    }
+
 }
