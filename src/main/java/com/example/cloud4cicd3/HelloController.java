@@ -15,4 +15,12 @@ public class HelloController {
 
         return  "hi  cicd docker !!!  ^^^ !!! 1215 ";
     }
+
+    @ResponseBody
+    @GetMapping("/hi2")
+    public String  hi2(){
+
+        return  "hi2 0630 ";
+    }
+
 }
